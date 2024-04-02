@@ -1,0 +1,76 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+   background-image: url("https://i.pinimg.com/564x/62/a8/ef/62a8eff9b2948a3c7529f25e085a5b4b.jpg");
+}
+.title {
+    font-size: 50px;
+    font-weight: 800;
+    padding: 0 20px;
+  font-family: 'Cinzel', serif;
+  color: black;
+  border-radius: 50px;
+  background: linear-gradient(#DAA520,#FAFAD2,#FFD700,#DAA520);
+}
+
+
+
+
+
+.firstImage{
+  width: 370px;
+  height: 200px;
+  display: inline;
+  border-radius: 50px;
+  
+}
+
+.vamp{
+    height:150px;
+    width:150px;
+    border:3px solid gold;
+    border-radius:105px;
+}
+.fi{
+    justify-content:center;
+}
+.sub{
+    display:flex;
+    justify-content:center;
+}
+.Ques{
+    display:none;
+    width: 350px;
+    margin: 0 auto;
+    background: linear-gradient(#DAA520,#FAFAD2,#FFD700,#DAA520);
+    border: 1px solid black;
+    border-top: 3px solid black;
+    padding: 30px 25px;
+    color:black; 
+}
+.resultImage {
+      width: 350px;
+      height: 200px;
+      margin: 10px;
+      display:none;
+    }
+
+#result {
+      text-align: center;
+      margin-top: 20px;
+      font-family:'Cinzel', serif;
+    }
+#submitbutt, #restartbutt {
+      background-color: #4CAF50; 
+      color: white; 
+      padding: 10px 20px; 
+      margin: 5px; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; 
+    }
+
+    #submitbutt:hover, #restartbutt:hover {
+      background-color: #45a049; 
+    }
